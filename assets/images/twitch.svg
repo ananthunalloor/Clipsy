@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1140px" height="380px" viewBox="0 0 1140 380" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <g id="Twitch--">
+    <g id="Layer_2">
+      <g id="Layer_1-2">
+        <path d="M150 150.01L80 150.01L80 170L150 170L150 250.01L40 250.01L0 210.01L0 0L80 0L80 70L150 70L150 150.01L150 150.01Z" transform="translate(20 20)" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none"  opacity="0.2"/>
+        <path d="M280 180.01L40 180.01L0 140.01L0 0L80 0L80 100L100 100L100 0L180 0L180 100L200 100L200 0L280 0L280 180.01L280 180.01Z" transform="translate(190 90)" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none"  opacity="0.2"/>
+        <path d="M0 0L80 0L80 180L0 180L0 0Z" transform="translate(490 90)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" opacity="0.2"/>
+        <path d="M0 0L80 0L80 50L0 50L0 0Z" transform="translate(490 20)" id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" stroke="none" opacity="0.2"/>
+        <path d="M150 150.01L80 150.01L80 170L150 170L150 250.01L40 250.01L0 210.01L0 0L80 0L80 70L150 70L150 150.01L150 150.01Z" transform="translate(590 20)" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none"  opacity="0.2"/>
+        <path d="M160 80.01L80 80.01L80 100L160 100L160 180.01L40 180.01L0 140.01L0 40.01L40 0L160 0L160 80.01L160 80.01Z" transform="translate(760 90)" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" opacity="0.2"/>
+        <path d="M180 250.01L100 250.01L100 150.01L80 150.01L80 250.01L0 250.01L0 0L80 0L80 70L140 70L180 110.01L180 250.01L180 250.01Z" transform="translate(940 20)" id="Polygon" fill="#FFFFFF" fill-rule="evenodd" stroke="none" opacity="0.2"/>
+        <path d="M1090 70L1040 70L1040 0L930.21 0L879.72 70L790 70L760 100L760 70L690 70L690 0L470 0L470 70L160.5 70L110 0L0 0L0 240L140 380L280 380L280 340L320 380L590 380L590 340L630 380L760 380L760 340L800 380L1050 380L1140 290L1140 120L1090 70ZM170 170L100 170L100 190L170 190L170 270L60 270L20 230L20 20L100 20L100 90L170 90L170 170ZM470 270L230 270L190 230L190 90L270 90L270 190L290 190L290 90L370 90L370 190L390 190L390 90L470 90L470 270ZM570 270L490 270L490 90L570 90L570 270ZM570 70L490 70L490 20L570 20L570 70ZM740 170L670 170L670 190L740 190L740 270L630 270L590 230L590 20L670 20L670 90L740 90L740 170ZM920 170L840 170L840 190L920 190L920 270L800 270L760 230L760 130L800 90L920 90L920 170ZM1120 270L1040 270L1040 170L1020 170L1020 270L940 270L940 20L1020 20L1020 90L1080 90L1120 130L1120 270Z" id="Shape" fill="#9146FF" fill-rule="evenodd" stroke="none" opacity="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>
