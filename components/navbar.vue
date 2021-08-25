@@ -1,6 +1,6 @@
 <template>
-  <section class="navbar">
-    <nav class="bg-transparent shadow-lg h-24">
+  <header class="navbar sticky top-0 z-50">
+    <nav class="bg-transparent h-24">
       <div class="h-full lg:px-28 md:px-10 sm:px-8">
         <div class="flex h-full">
           <div class="flex items-center">
@@ -28,5 +28,5 @@
         </div>
       </div>
     </nav>
-  </section>
+  </header>
 </template>

@@ -1,11 +1,8 @@
 <template>
-  <div class="h-screen">
-    <Navbar />
-    <Clipsearch/>
-    <dir>
-        
-    </dir>
-  </div>
+  <section>
+      <Clipsearch />
+      <About />
+  </section>
 </template>
 
 <script lang="ts">

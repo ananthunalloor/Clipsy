@@ -1,6 +1,6 @@
 <template>
-        <div class="grid place-items-center h-4/6">
-      <div class="m-auto w-full">
+        <div class="h-full">
+      <div class="w-full mt-32 mb-44">
         <div class="text-center p-4">
           <span class="font-medium text-gray-100 text-6xl nuni">CLIPSY</span>
         </div>
