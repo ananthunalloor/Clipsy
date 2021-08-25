@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class=" bg-gray-900">
       <Clipsearch />
       <About />
   </section>
