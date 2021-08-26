@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-12 bg-gray-900">
+  <div class="pt-12 bg-gray-900" id="about">
     <div class="lg:w-10/12 w-11/12 bg-gray-100 mx-auto px-8 py-8 rounded-lg">
       <div class="px-4 py-1 border-l-4 border-gray-900">
         <span class="text-gray-900 text-3xl reg-nuni">HOW TO USE</span>

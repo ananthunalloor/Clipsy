@@ -9,12 +9,12 @@
           <div class="flex h-full ml-auto">
               <div class="hidden md:flex items-center space-x-10">
 						<a
-							href=""
+							href="#home"
 							class="text-gray-100 font-semibold hover:text-purple-500 nuni"
 							>HOME</a
 						>
 						<a
-							href=""
+							href="#about"
 							class="text-gray-100 font-semibold hover:text-purple-500 nunoi"
 							>ABOUT</a
 						>
