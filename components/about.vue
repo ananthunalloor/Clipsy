@@ -1,10 +1,10 @@
 <template>
   <div class="pt-12 bg-gray-900">
-    <div class="w-10/12 bg-gray-100 mx-auto px-8 py-8 rounded-lg">
+    <div class="lg:w-10/12 w-11/12 bg-gray-100 mx-auto px-8 py-8 rounded-lg">
       <div class="px-4 py-1 border-l-4 border-gray-900">
         <span class="text-gray-900 text-3xl reg-nuni">HOW TO USE</span>
       </div>
-      <div class="md:p-8 sm:p-4">
+      <div class="md:p-8 sm:p-2">
         <span class="text-gray-900 just-nuni">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum
