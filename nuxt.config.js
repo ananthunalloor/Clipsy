@@ -51,11 +51,11 @@ export default {
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
-    baseURL: 'https://api.twitch.tv/helix/',
+    baseURL: process.env.BASE_URL,
     headers : {
       common: {
-        'Authorization' : 'Bearer vxm2afcnbdd9umgrkhuc5oajob1qcd',
-        'client-id' : 'g8a0a342jlmwvzb1013e5966ee06d0'
+        'Authorization' : process.env.AUTH,
+        'client-id' : process.env.CLIENT_ID,
       }
     },
   },
