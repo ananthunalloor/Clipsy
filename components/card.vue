@@ -1,7 +1,7 @@
 <template>
 <section>
   <div class="p-8">
-    <div class="bg-white rounded-lg shadow-xl max-w-sm m-auto">
+    <div class="bg-white rounded-lg shadow-xl max-w-md m-auto">
       <div
         class=" flex justify-center items-center rounded-t-lg"
       >

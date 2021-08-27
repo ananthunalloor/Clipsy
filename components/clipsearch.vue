@@ -1,6 +1,6 @@
 <template>
   <div class="h-full">
-    <div class="absolute clip-card w-full top-1/4" v-if="card">
+    <div class="absolute clip-card w-full top-1/3" v-if="card">
       <div class="absolute left-3/4 m-8">
         <button v-on:click="card = !card">
           <i class="text-4xl text-gray-100 hover:text-red-500 fas fa-times"></i>
