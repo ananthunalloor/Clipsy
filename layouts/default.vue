@@ -1,8 +1,8 @@
 <template>
-<section class="landing bg-gray-900 h-screen">
+<section class="landing bg-gray-900 h-screen" id="home">
     <Navbar />
     <Nuxt />
-    <Footer/>
+    <Footer/> 
   </section>
 </template>
 <style scoped>

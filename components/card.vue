@@ -6,30 +6,32 @@
         class=" flex justify-center items-center rounded-t-lg"
       >
         <img
-          src="https://clips-media-assets2.twitch.tv/vod-1120371160-offset-23248-preview-480x272.jpg"
-          alt=""
+          :src= thumbnail_url
+          :alt= title
         />
       </div>
       <div class="px-8 py-8">
         <div class="flex justify-between just-nuni">
             <div class="text-red-500">
                 <i class="fas fa-eye"></i>
-                <span class="text-sm"> 20972</span>
+                <span class="text-sm"> {{view_count}}</span>
             </div>
             <div class="text-blue-600">
                 <i class="far fa-clock"></i>
-                <span class="text-sm"> 30</span>
+                <span class="text-sm"> {{duration}}</span>
             </div>
         
         </div>
         <div class="flex justify-between just-nuni pt-2">
-          <p class="text-gray-600 italic hover:underline reg-nuni">AnthonyZ</p>
+          <p class="text-gray-600 italic hover:underline reg-nuni">{{broadcaster_name}}</p>
           <p class="text-xs">2021-08-17</p>
         </div>
         <p class="font-bold text-xl text-gray-700 reg-nuni">
-          Tony Gives Ludwig Some Harsh Final Words
+          {{title}}
         </p>
         <div class="flex justify-center mt-6">
+          <form :action=download_link>
+
           <button
             class="
               bg-blue-500
@@ -43,9 +45,23 @@
           >
             DOWNLOAD
           </button>
+          </form>
         </div>
       </div>
     </div>
   </div>
   </section>
 </template>
+<script>
+export default {
+props:{
+      title: String,
+    thumbnail_url: String,
+    duration: Number,
+    view_count: Number,
+    created_at: String,
+    broadcaster_name: String,
+    download_link: String,
+}
+}
+</script>

@@ -1,5 +1,5 @@
 <template>
-  <section id="home">
+  <section>
       <Clipsearch />
       <About />
   </section>

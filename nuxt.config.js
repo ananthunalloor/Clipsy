@@ -50,7 +50,16 @@ export default {
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
-  axios: {},
+  axios: {
+    baseURL: 'https://api.twitch.tv/helix/',
+    headers : {
+      common: {
+        'Authorization' : 'Bearer vxm2afcnbdd9umgrkhuc5oajob1qcd',
+        'client-id' : 'g8a0a342jlmwvzb1013e5966ee06d0'
+      }
+    },
+  },
+
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
