@@ -15,9 +15,9 @@
       :view_count="resData.viewcount"
       />
     </div>
-    <div class="w-full mt-32 mb-40">
+    <div class="w-full mt-32 lg:mb-40 mb-20">
       <div class="text-center p-4">
-        <span class="font-medium text-gray-100 text-8xl nuni"><h1>CLIPSY</h1></span>
+        <span class="font-medium text-gray-100 text-6xl nuni"><h1>CLIPSY</h1></span>
       </div>
       <div class="text-center px-2">
         <span class="font-normal text-gray-50 text-2xl just-nuni"
