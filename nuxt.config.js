@@ -65,6 +65,10 @@ export default {
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
+    icon:{
+      source: '/icon.png',
+      fileName: 'icon.png',
+    },
     manifest: {
       lang: 'en',
       name: 'Clipsy - Twitch clip Downloader',
@@ -75,6 +79,9 @@ export default {
       lang: 'en',
       name: 'Clipsy - Twitch clip Downloader',
       description: 'Easily find and download your favorite clip or most memorable moments on Twitch.tv',
+      twitterCard: 'summary_large_image',
+      twitterSite: 'clipsy',
+      ogImage: '/icon.png'
     }
   },
 
