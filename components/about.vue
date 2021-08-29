@@ -5,59 +5,28 @@
         <span class="text-gray-900 text-3xl reg-nuni">HOW TO USE</span>
       </div>
       <div class="md:p-8 sm:p-2">
-        <span class="text-gray-900 just-nuni">
+        <span class="nuni text-xl">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum
-            iste voluptas vero deserunt consectetur est error, eos doloribus
-            numquam, dignissimos, veniam nemo tenetur qui optio laboriosam
-            eveniet pariatur cupiditate? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Fuga sunt odit esse quasi soluta quas adipisci
-            sint hic, mollitia architecto ab ad quos dignissimos voluptate
-            ipsam? Corrupti culpa aspernatur molestias? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dicta harum iste voluptas vero
-            deserunt consectetur est error, eos doloribus numquam, dignissimos,
-            veniam nemo tenetur qui optio laboriosam eveniet pariatur
-            cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Fuga sunt odit esse quasi soluta quas adipisci sint hic, mollitia
-            architecto ab ad quos dignissimos voluptate ipsam? Corrupti culpa
-            aspernatur molestias? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Dicta harum iste voluptas vero deserunt
-            consectetur est error, eos doloribus numquam, dignissimos, veniam
-            nemo tenetur qui optio laboriosam eveniet pariatur cupiditate? Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt odit
-            esse quasi soluta quas adipisci sint hic, mollitia architecto ab ad
-            quos dignissimos voluptate ipsam? Corrupti culpa aspernatur
-            molestias?
+            Follow these simple steps.
           </p>
         </span>
+        <ol class="list-decimal list-inside text-gray-900 reg-nuni py-2 text-lg">
+          <li>Copy the URL from your favorite clips that you want to download.</li>
+          <li>Paste the copied URL in the search box and click the “Get Clip” button.</li>
+          <li>In the pop-up, make sure that it is the clip that you want to download and click the “Download” button. </li>
+          <li>There you go, your clip will be downloaded to your device.</li>
+        </ol>
       </div>
       <div class="px-4 py-1 border-l-4 border-gray-900">
         <span class="text-gray-900 text-3xl reg-nuni">ABOUT</span>
       </div>
       <div class="md:p-8 sm:p-4">
-        <span class="text-gray-900 just-nuni">
+        <span class="text-gray-900 reg-nuni text-lg">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta harum
-            iste voluptas vero deserunt consectetur est error, eos doloribus
-            numquam, dignissimos, veniam nemo tenetur qui optio laboriosam
-            eveniet pariatur cupiditate? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Fuga sunt odit esse quasi soluta quas adipisci
-            sint hic, mollitia architecto ab ad quos dignissimos voluptate
-            ipsam? Corrupti culpa aspernatur molestias? Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Dicta harum iste voluptas vero
-            deserunt consectetur est error, eos doloribus numquam, dignissimos,
-            veniam nemo tenetur qui optio laboriosam eveniet pariatur
-            cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Fuga sunt odit esse quasi soluta quas adipisci sint hic, mollitia
-            architecto ab ad quos dignissimos voluptate ipsam? Corrupti culpa
-            aspernatur molestias? Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Dicta harum iste voluptas vero deserunt
-            consectetur est error, eos doloribus numquam, dignissimos, veniam
-            nemo tenetur qui optio laboriosam eveniet pariatur cupiditate? Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Fuga sunt odit
-            esse quasi soluta quas adipisci sint hic, mollitia architecto ab ad
-            quos dignissimos voluptate ipsam? Corrupti culpa aspernatur
-            molestias?
+            Clippy is an easy way to download clips from your favorite Streamer / Stream on Twitch.
+Built for you to save your favorite clip or most memorable moments on Twitch. 
+<span class="font-bold italic">
+This website has no affiliation to <a class="hover:text-purple-500" target="_blank" href="https://twitch.tv">twitch.tv</a>.</span> Don't forget to support favorite streamers through Donations and Subs.
           </p>
         </span>
       </div>
