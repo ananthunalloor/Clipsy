@@ -24,7 +24,7 @@
         </div>
         <div class="flex justify-between just-nuni pt-2">
           <p class="text-gray-600 italic hover:underline reg-nuni">{{broadcaster_name}}</p>
-          <p class="text-xs">2021-08-17</p>
+          <p class="text-xs">{{created_at}}</p>
         </div>
         <p class="font-bold text-xl text-gray-700 reg-nuni">
           {{title}}

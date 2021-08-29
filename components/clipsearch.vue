@@ -17,11 +17,11 @@
     </div>
     <div class="w-full mt-32 mb-40">
       <div class="text-center p-4">
-        <span class="font-medium text-gray-100 text-8xl nuni">CLIPSY</span>
+        <span class="font-medium text-gray-100 text-8xl nuni"><h1>CLIPSY</h1></span>
       </div>
       <div class="text-center px-2">
         <span class="font-normal text-gray-50 text-2xl just-nuni"
-          >Find and Download clips form your favorite Streamers.</span
+          ><h2>Find and Download clips form your favorite Streamers.</h2></span
         >
       </div>
       <div class="pt-8 text-center px-2">

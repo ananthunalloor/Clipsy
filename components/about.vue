@@ -2,13 +2,13 @@
   <div class="pt-12 bg-gray-900" id="about">
     <div class="lg:w-10/12 w-11/12 bg-gray-100 mx-auto px-8 py-8 rounded-lg">
       <div class="px-4 py-1 border-l-4 border-gray-900">
-        <span class="text-gray-900 text-3xl reg-nuni">HOW TO USE</span>
+        <span class="text-gray-900 text-3xl reg-nuni"><h3>HOW TO USE</h3></span>
       </div>
       <div class="md:p-8 sm:p-2">
         <span class="nuni text-xl">
-          <p>
+          <h4>
             Follow these simple steps.
-          </p>
+          </h4>
         </span>
         <ol class="list-decimal list-inside text-gray-900 reg-nuni py-2 text-lg">
           <li>Copy the URL from your favorite clips that you want to download.</li>
@@ -18,7 +18,7 @@
         </ol>
       </div>
       <div class="px-4 py-1 border-l-4 border-gray-900">
-        <span class="text-gray-900 text-3xl reg-nuni">ABOUT</span>
+        <span class="text-gray-900 text-3xl reg-nuni"><h3>ABOUT</h3></span>
       </div>
       <div class="md:p-8 sm:p-4">
         <span class="text-gray-900 reg-nuni text-lg">
