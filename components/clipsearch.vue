@@ -20,7 +20,7 @@
         <span class="font-medium text-gray-100 text-8xl nuni">CLIPSY</span>
       </div>
       <div class="text-center px-2">
-        <span class="font-normal text-gray-100 text-2xl just-nuni"
+        <span class="font-normal text-gray-50 text-2xl just-nuni"
           >Find and Download clips form your favorite Streamers.</span
         >
       </div>
