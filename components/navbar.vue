@@ -3,8 +3,9 @@
     <nav class="bg-transparent h-24">
       <div class="h-full lg:px-28 px-12">
         <div class="flex h-full">
-          <div class="flex items-center">
+          <div class="flex items-center"><a href="/">
             <span class="font-medium text-gray-100 text-3xl nuni">CLIPSY</span>
+			</a>
           </div>
           <div class="flex h-full ml-auto">
               <div class="hidden md:flex items-center space-x-10">

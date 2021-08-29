@@ -17,7 +17,7 @@
     </div>
     <div class="w-full mt-32 mb-40">
       <div class="text-center p-4">
-        <span class="font-medium text-gray-100 text-6xl nuni">CLIPSY</span>
+        <span class="font-medium text-gray-100 text-8xl nuni">CLIPSY</span>
       </div>
       <div class="text-center px-2">
         <span class="font-normal text-gray-100 text-2xl just-nuni"
