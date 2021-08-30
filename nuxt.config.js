@@ -5,6 +5,11 @@ export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
 
+  loadingIndicator: {
+    name: 'folding-cube',
+    color: '#f9fafb',
+    background: '#111827'
+  },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
     title: 'Clipsy - Twitch clip Downloader',
