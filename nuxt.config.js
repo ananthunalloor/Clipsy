@@ -49,6 +49,7 @@ export default {
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     '@nuxtjs/robots',
+    '@nuxtjs/sitemap',
   ],
 
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
@@ -92,6 +93,15 @@ export default {
   robots: {
     UserAgent: '*',
     Disallow: '/dev'
+  },
+
+  sitemap: {
+    hostname: 'https://clipsy.netlify.app',
+    gzip: true,
+    lastmod: '2021-08-30',
+    exclude: [
+      '/dev',
+    ],
   },
 
   tailwindcss:{
