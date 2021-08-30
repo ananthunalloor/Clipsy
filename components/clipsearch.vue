@@ -1,6 +1,6 @@
 <template>
   <div class="h-full">
-    <div class="absolute clip-card w-full top-1/3" v-if="card">
+    <div class="absolute clip-card w-full top-1/4" v-if="card">
       <div class="absolute left-3/4 m-8">
         <button v-on:click="card = !card">
           <i class="text-4xl text-gray-100 hover:text-red-500 fas fa-times"></i>
@@ -28,7 +28,7 @@
       </div>
       <div class="pt-8 text-center px-2">
         <div v-if="erred" class="pb-2">
-        <span class="w-max mb-20 text-red-500 bg-red-200 rounded-lg font-semibold text-base just-nuni py-2 px-3 border-red-700 border-l-4">{{err}}</span>
+        <span class="w-max mb-20 text-red-500 bg-red-200 rounded-lg font-semibold text-base just-nuni py-2 px-3 border-red-700 border-l-4"><i class="fas fa-exclamation-triangle"></i> {{err}}</span>
         </div>
         <form :model="clipForm" v-on:submit.prevent="getCliplink(clipForm)">
         <input v-model="clipForm.url"
@@ -113,6 +113,7 @@ export default {
         this.resData.downloadlink = this.res.data[0].thumbnail_url.split('-preview', 1) + '.mp4'
         this.resData.twitchurl = 'https://twitch.tv/'+ this.res.data[0].broadcaster_name
         this.card = true
+        this.err = ''
         this.erred = false
       }
       else{

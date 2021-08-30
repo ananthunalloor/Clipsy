@@ -16,7 +16,7 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Easily find and download your favorite clip or most memorable moments on Twitch.tv' },
+      { hid: 'description', name: 'description', content: 'Easily find and download your favorite clip or most memorable moments on Twitch.tv. Hassle-free usage past URL and click download.'},
       { name: 'keywords', content: 'Twitch clip download, twitch clip downloader, Twitch clips, download twitch clip, download clips, download twitch clips, how to download twitch clips, twitch clips download 2021, twitch, clip, clipsy, download, stream'},
       { name: 'format-detection', content: 'telephone=no' },
       {
