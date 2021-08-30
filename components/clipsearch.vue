@@ -27,9 +27,10 @@
         >
       </div>
       <div class="pt-8 text-center px-2">
+        <div v-if="erred" class="pb-2">
+        <span class="w-max mb-20 text-red-500 bg-red-200 rounded-lg font-semibold text-base just-nuni py-2 px-3 border-red-700 border-l-4">{{err}}</span>
+        </div>
         <form :model="clipForm" v-on:submit.prevent="getCliplink(clipForm)">
-        <span class="flex items-center justify-center text-red-500 font-semibold text-sm just-nuni">
-          {{err}}</span>
         <input v-model="clipForm.url"
           class="p-4 lg:w-6/12 sm:w-11/12 md:w-9/12 rounded-lg bg-gray-300 text-grey-900 text-lg just-nuni"
           type="url" placeholder="https://clips.twitch.com" required/>
@@ -48,7 +49,8 @@ export default {
     return {
       card: false,
       clipid: '',
-      err: '',
+      erred: false,
+      err: 'this is very long eerror',
       res: Object,
       clipForm:{
         url:''
@@ -86,6 +88,7 @@ export default {
       }
       else{
         this.err= 'Enter valid URL!!!'
+        this.erred = true
       }
       this.clipid = path
       if(path != undefined)
@@ -96,7 +99,8 @@ export default {
     async fetchclip(clipid)
     {
       this.res = await this.$axios.$get('clips?id=' + clipid)
-      if(this.res.data != []){
+
+      if(this.res.data != ''){
         this.resData.id = this.res.data[0].id
         this.resData.url = this.res.data[0].url
         this.resData.broadcaster = this.res.data[0].broadcaster_name
@@ -109,8 +113,13 @@ export default {
         this.resData.downloadlink = this.res.data[0].thumbnail_url.split('-preview', 1) + '.mp4'
         this.resData.twitchurl = 'https://twitch.tv/'+ this.res.data[0].broadcaster_name
         this.card = true
+        this.erred = false
       }
-      console.log(this.resData.id);
+      else{
+        console.log("Something went wrong!!");
+        this.err= 'Something went wrong, check if the URL is correct and try again!'
+        this.erred = true
+      }
     }
   },
 }
