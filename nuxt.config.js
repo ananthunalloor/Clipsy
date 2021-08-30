@@ -13,7 +13,27 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: 'Easily find and download your favorite clip or most memorable moments on Twitch.tv' },
       { name: 'keywords', content: 'Twitch clip download, twitch clip downloader, Twitch clips, download twitch clip, download clips, download twitch clips, how to download twitch clips, twitch clips download 2021, twitch, clip, clipsy'},
-      { name: 'format-detection', content: 'telephone=no' }
+      { name: 'format-detection', content: 'telephone=no' },
+      {
+        hid: 'twitter:title',
+        name: 'twitter:title',
+        content: 'Clipsy - Twitch clip Downloader'
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content: 'Easily find and download your favorite clip or most memorable moments on Twitch.tv'
+      },
+      {
+        hid: 'twitter:image',
+        name: 'twitter:image',
+        content: 'https://clipsy.netlify.app/icon.png'
+      },
+      {
+        hid: 'twitter:image:alt',
+        name: 'twitter:image:alt',
+        content: 'Clipsy'
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
@@ -81,8 +101,6 @@ export default {
       lang: 'en',
       name: 'Clipsy - Twitch clip Downloader',
       description: 'Easily find and download your favorite clip or most memorable moments on Twitch.tv',
-      twitterCard: 'summary_large_image',
-      twitterSite: 'clipsy',
       ogImage: '/icon.png'
     }
   },
