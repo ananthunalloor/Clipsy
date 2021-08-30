@@ -13,6 +13,8 @@
       :download_link="resData.downloadlink"
       :broadcaster_name="resData.broadcaster"
       :view_count="resData.viewcount"
+      :created_at="resData.createdat"
+      :twitch_url="resData.twitchurl"
       />
     </div>
     <div class="w-full mt-32 lg:mb-40 mb-20">
@@ -62,6 +64,7 @@ export default {
         thumbnailurl: '',
         duration: '',
         downloadlink:'',
+        twitchurl:''
       },
     }
   },
@@ -100,10 +103,11 @@ export default {
         this.resData.videoid = this.res.data[0].video_id
         this.resData.title = this.res.data[0].title
         this.resData.viewcount = this.res.data[0].view_count
-        this.resData.createdat = this.res.data[0].created_at
+        this.resData.createdat = this.res.data[0].created_at.split('T')[0]
         this.resData.thumbnailurl = this.res.data[0].thumbnail_url
         this.resData.duration = this.res.data[0].duration
         this.resData.downloadlink = this.res.data[0].thumbnail_url.split('-preview', 1) + '.mp4'
+        this.resData.twitchurl = 'https://twitch.tv/'+ this.res.data[0].broadcaster_name
         this.card = true
       }
       console.log(this.resData.id);
