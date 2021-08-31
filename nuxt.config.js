@@ -42,7 +42,7 @@ export default {
       {
         hid: 'twitter:image',
         name: 'twitter:image',
-        content: 'https://clipsy.netlify.app/icon.png',
+        content: 'https://clipsy.xyz/icon.png',
       },
       {
         hid: 'twitter:image:alt',
@@ -57,7 +57,7 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
       },
-      { rel: 'canonical', href: 'https://clipsy.netlify.app' },
+      { rel: 'canonical', href: 'https://clipsy.xyz' },
     ],
     htmlAttrs: {
       lang: 'en'
@@ -145,11 +145,11 @@ export default {
     UserAgent: '*',
     Allow: '/',
     Disallow: '/dev',
-    Sitemap: 'https://clipsy.netlify.app/sitemap.xml',
+    Sitemap: 'https://clipsy.xyz/sitemap.xml',
   },
 
   sitemap: {
-    hostname: 'https://clipsy.netlify.app',
+    hostname: 'https://clipsy.xyz',
     gzip: true,
     lastmod: new Date(),
     exclude: ['/dev'],
