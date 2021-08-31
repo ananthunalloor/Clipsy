@@ -1,5 +1,5 @@
 <template>
-<section class="landing bg-gray-900 h-screen" id="home">
+<section class="landing h-screen" id="home">
     <Navbar />
     <Nuxt />
     <Footer/> 
