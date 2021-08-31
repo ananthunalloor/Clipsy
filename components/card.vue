@@ -23,7 +23,7 @@
         
         </div>
         <div class="flex justify-between just-nuni pt-2">
-          <a :href= twitch_url target="_blank"><p class="text-gray-600 italic hover:underline hover:text-purple-500 reg-nuni">{{broadcaster_name}}</p></a>
+          <a :href= twitch_url target="_blank" rel="noopener"><p class="text-gray-600 italic hover:underline hover:text-purple-500 reg-nuni">{{broadcaster_name}}</p></a>
           <p class="text-xs">{{created_at}}</p>
         </div>
         <p class="font-bold text-xl text-gray-700 reg-nuni">

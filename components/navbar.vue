@@ -20,7 +20,7 @@
 							>ABOUT</a
 						>
 						<a
-							href=""
+							href="#"
 							class="text-gray-100 font-semibold hover:text-purple-500 nuni"
 							>DONATE</a
 						>

@@ -39,6 +39,7 @@
               <a
                 class="hover:text-purple-500"
                 target="_blank"
+                rel="noopener"
                 href="https://twitch.tv"
                 >twitch.tv</a
               >.</span
@@ -81,6 +82,7 @@
           <div class="text-blue-600">
             <span class="text-base hover:underline"
               ><a
+              rel="noopener"
                 href="https://en.wikipedia.org/wiki/Twitch_(service)"
                 target="_blank"
               >
