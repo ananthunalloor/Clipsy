@@ -57,7 +57,7 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
       },
-      { rel: 'canonical', href: 'https://clipsy.xyz' },
+      { rel: 'canonical', href: 'https://www.clipsy.xyz' },
     ],
     htmlAttrs: {
       lang: 'en'
@@ -140,6 +140,8 @@ export default {
     minifyCSS: true,
     minifyJS: true,
   },
+
+  //generate: { fallback: '404.html' },
 
   robots: {
     UserAgent: '*',
