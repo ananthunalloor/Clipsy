@@ -20,7 +20,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          'Easily find and download your favorite clip or most memorable moments on Twitch.tv. Hassle-free usage past URL and click download.',
+          'Easily find and download your favorite clip or most memorable moments on Twitch.tv. Hassle-free usage, paste URL and click download.',
       },
       {
         name: 'keywords',
@@ -57,7 +57,7 @@ export default {
         rel: 'stylesheet',
         href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css',
       },
-      { rel: 'canonical', href: 'https://www.clipsy.xyz' },
+      { rel: 'canonical', href: 'https://clipsy.xyz' },
     ],
     htmlAttrs: {
       lang: 'en'

@@ -30,7 +30,7 @@
       </div>
       <div class="md:p-8 sm:p-4">
         <span class="text-gray-900 reg-nuni text-lg">
-          <p>
+          <h1>
             Clippy is an easy way to download clips from your favorite Streamer
             / Stream on Twitch. Built for you to save your favorite clip or most
             memorable moments on Twitch.
@@ -46,7 +46,7 @@
             >
             Don't forget to support favorite streamers through Donations and
             Subs.
-          </p>
+          </h1>
         </span>
       </div>
       <div class="px-2 mx-2 py-1 border-l-4 border-purple-500">
