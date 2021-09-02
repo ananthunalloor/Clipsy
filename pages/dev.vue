@@ -98,7 +98,7 @@ export default {
     },
     async fetchclip(clipid)
     {
-      this.res = await this.$axios.$get('http://localhost:8888/api/hello',
+      this.res = await this.$axios.$get('/api/hello',
 {
 	params:{
 		id:clipid,

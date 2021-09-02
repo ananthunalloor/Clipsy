@@ -1,3 +1,4 @@
+//https://www.twitch.tv/wolfabelle/clip/HyperAbstruseChamoisMrDestructoid-HcVi4MtOJ7jRM2HM?filter=clips&range=7d&sort=time
 const axios = require('axios');
 
 var result = null;
@@ -24,7 +25,7 @@ exports.handler = async function (event, context) {
     }
 
     try {
-        await axios(process.env.API_URL +'clips?id='+ data.id ,config).then(function (responce) {
+        await axios(process.env.API +'clips?id='+ data.id ,config).then(function (responce) {
             result = responce.data;
         })
             .catch(function (error) {

@@ -98,7 +98,12 @@ export default {
     },
     async fetchclip(clipid)
     {
-      this.res = await this.$axios.$get('clips?id=' + clipid)
+      this.res = await this.$axios.$get('/api/hello',
+{
+	params:{
+		id:clipid,
+	}
+})
 
       if(this.res.data != ''){
         this.resData.id = this.res.data[0].id
