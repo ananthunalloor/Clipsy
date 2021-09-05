@@ -8,3 +8,6 @@
    from= "/api/*"
    to = "/.netlify/functions/:splat"
    status = 200
+[[headers]]
+   for = "/api/*"
+   Access-Control-Allow-Origin = "https://clipsy.xyz"

@@ -94,12 +94,6 @@ export default {
   // Axios module configuration: https://go.nuxtjs.dev/config-axios
   axios: {
     baseURL: process.env.BASE_URL,
-    headers: {
-      common: {
-        Authorization: process.env.AUTH,
-        'client-id': process.env.CLIENT_ID,
-      },
-    },
   },
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
