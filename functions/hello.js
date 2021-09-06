@@ -8,6 +8,7 @@ const config = {
     headers: {
         Authorization: process.env.AUTH,
         'client-id': process.env.CLIENT_ID,
+        'access-control-allow-origin': "*"
     },
 };
 
