@@ -8,7 +8,6 @@ const config = {
     headers: {
         Authorization: process.env.AUTH,
         'client-id': process.env.CLIENT_ID,
-        'access-control-allow-origin': "*"
     },
 };
 
@@ -41,6 +40,9 @@ exports.handler = async function (event, context) {
 console.log(result);
     return {
         statusCode: 200,
-        body: JSON.stringify(result)
+        body: JSON.stringify(result),
+        headers: {
+            "access-control-allow-origin": "*"
+          }
     }
 }
