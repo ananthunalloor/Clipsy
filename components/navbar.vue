@@ -24,6 +24,9 @@
 							class="text-gray-100 font-semibold hover:text-purple-500 nuni"
 							>DONATE</a
 						>
+						<NuxtLink to="/privacy"
+							class="text-gray-100 font-semibold hover:text-purple-500 nuni"
+							>PRIVACY</NuxtLink>
 					</div>
           </div>
         </div>
